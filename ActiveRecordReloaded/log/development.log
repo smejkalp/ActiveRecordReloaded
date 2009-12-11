@@ -241,3 +241,1430 @@
 Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-12-10 17:46:17) [GET]
   [4;36;1mSQL (23.0ms)[0m   [0;1mSHOW TABLES[0m
 Completed in 129ms (View: 15, DB: 23) | 200 OK [http://127.0.0.1/rails/info/properties]
+/!\ FAILSAFE /!\  Fri Dec 11 09:27:41 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:27:59 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:28:03 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:28:04 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:28:48 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:28:51 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:28:51 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:29:02 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:29:24 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:30:06 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+/!\ FAILSAFE /!\  Fri Dec 11 09:30:16 +0100 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `real_connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:585:in `connect'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:199:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/mysql_adapter.rb:71:in `mysql_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    C:/Ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    -e:2:in `load'
+    -e:2
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 09:31:58) [GET]
+Rendering test/index
+Completed in 38ms (View: 35, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:20:27) [GET]
+
+NameError (uninitialized constant TestController::ActiveRecordReloaded):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (36.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:20:39) [GET]
+
+NameError (uninitialized constant TestController::ActiveRecordReloaded):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:20:53) [GET]
+
+NameError (uninitialized constant TestController::ActiveRecordReloaded):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (32.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:23:06) [GET]
+
+NameError (uninitialized constant TestController::ActiveRecordReloaded):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:23:24) [GET]
+
+NameError (uninitialized constant TestController::ActiveRecordReloaded):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (74.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:27:20) [GET]
+
+NameError (uninitialized constant TestController::AR):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:34:17) [GET]
+
+NameError (undefined local variable or method `r' for main:Object):
+  app/controllers/test_controller.rb:1
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:34:41) [GET]
+
+NameError (undefined local variable or method `r' for main:Object):
+  app/controllers/test_controller.rb:1
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (73.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:34:56) [GET]
+
+NameError (uninitialized constant TestController::Base):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:36:39) [GET]
+
+NameError (uninitialized constant TestController::Base):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (32.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:37:08) [GET]
+
+NameError (uninitialized constant TestController::Base):
+  app/controllers/test_controller.rb:2
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (73.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mBase Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'ruby.bases' doesn't exist: SHOW FIELDS FROM `bases`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:38:24) [GET]
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'ruby.bases' doesn't exist: SHOW FIELDS FROM `bases`):
+  app/controllers/test_controller.rb:3:in `new'
+  app/controllers/test_controller.rb:3
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:38:50) [GET]
+
+NameError (uninitialized constant TestController::ActiveRecordReloaded):
+  app/controllers/test_controller.rb:3
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBase Columns (0.0ms)[0m   [0mMysql::Error: Table 'ruby.bases' doesn't exist: SHOW FIELDS FROM `bases`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:39:20) [GET]
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'ruby.bases' doesn't exist: SHOW FIELDS FROM `bases`):
+  app/controllers/test_controller.rb:3:in `new'
+  app/controllers/test_controller.rb:3
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (77.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 10:41:05) [GET]
+Rendering test/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:47:45) [GET]
+
+NameError (uninitialized constant TestController::ActiveRecordReloaded):
+  app/controllers/test_controller.rb:3
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:50:24) [GET]
+
+NameError (uninitialized constant TestController::MyClass):
+  app/controllers/test_controller.rb:3
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (32.0ms)
+Rendered rescues/_request_and_response (40.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mArticle Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'ruby.articles' doesn't exist: SHOW FIELDS FROM `articles`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:56:58) [GET]
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'ruby.articles' doesn't exist: SHOW FIELDS FROM `articles`):
+  app/controllers/test_controller.rb:3:in `new'
+  app/controllers/test_controller.rb:3
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 10:57:57) [GET]
+
+NameError (uninitialized constant TestController::Article):
+  app/controllers/test_controller.rb:3
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 11:16:11) [GET]
+
+NameError (uninitialized constant ActiveRecordReloaded):
+  app/controllers/test_controller.rb:1
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (36.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 11:16:30) [GET]
+
+NameError (uninitialized constant ActiveRecordReloaded):
+  app/controllers/test_controller.rb:1
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-11 11:17:06) [GET]
+
+NameError (uninitialized constant ActiveRecordReloaded):
+  app/controllers/test_controller.rb:1
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:17:20) [GET]
+Rendering test/index
+Completed in 13ms (View: 13, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:18:29) [GET]
+Rendering test/index
+Completed in 43616ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:21:08) [GET]
+Rendering test/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:21:26) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:23:43) [GET]
+
+NoMethodError (undefined method `classHello' for ActiveRecordReloaded::Base:Class):
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (36.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:24:41) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:25:01) [GET]
+Rendering test/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 11:25:14) [GET]
+Rendering test/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:00:03) [GET]
+
+NameError (uninitialized constant ActiveRecordReloaded::Dbcontrollers::MockDbcontroller):
+  lib/active_record_reloaded/base.rb:5
+  app/controllers/test_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:01:13) [GET]
+
+NameError (uninitialized constant ActiveRecordReloaded::Dbcontrollers::MockDbcontroller):
+  lib/active_record_reloaded/base.rb:5
+  app/controllers/test_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:02:26) [GET]
+
+NameError (uninitialized constant ActiveRecordReloaded::Dbcontrollers::MockDbcontroller):
+  lib/active_record_reloaded/base.rb:5
+  app/controllers/test_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:08:36) [GET]
+
+NameError (uninitialized constant ActiveRecordReloaded::Dbcontrollers::MockDbcontroller):
+  lib/active_record_reloaded/base.rb:7
+  app/controllers/test_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:09:14) [GET]
+
+NoMethodError (undefined method `all' for #<ActiveRecordReloaded::Base:0x4d0c970>):
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (36.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:09:40) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  lib/active_record_reloaded/base.rb:19:in `all'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (72.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:10:47) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  lib/active_record_reloaded/base.rb:19:in `all'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:11:41) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:12:28) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:14:22) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  lib/active_record_reloaded/base.rb:19:in `all'
+  app/controllers/test_controller.rb:9:in `index'
+  C:/Ruby/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  C:/Ruby/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  C:/Ruby/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  C:\Ruby\bin\rdebug-ide:19:in `load'
+  C:\Ruby\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:15:41) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  lib/active_record_reloaded/base.rb:20:in `all'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:16:32) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.find):
+  lib/active_record_reloaded/base.rb:20:in `all'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (71.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:16:46) [GET]
+Rendering test/index
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:17:12) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:19:55) [GET]
+Rendering test/index
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:21:32) [GET]
+
+RuntimeError (Class is abstract):
+  lib/active_record_reloaded/dbcontrollers/abstract_dbcontroller.rb:8:in `initialize'
+  lib/active_record_reloaded/base.rb:19:in `new'
+  lib/active_record_reloaded/base.rb:19:in `all'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:23:13) [GET]
+
+RuntimeError (Method must be overridden):
+  lib/active_record_reloaded/dbcontrollers/abstract_dbcontroller.rb:8:in `find'
+  lib/active_record_reloaded/base.rb:20:in `all'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:24:03) [GET]
+Rendering test/index
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:24:39) [GET]
+Rendering test/index
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:24:40) [GET]
+Rendering test/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 12:24:42) [GET]
+Rendering test/index
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 13:00:37) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 13:01:51) [GET]
+  [4;36;1mSQL (32.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 16:35:23) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 16:36:48) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 16:38:17) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:00:19) [GET]
+
+NoMethodError (undefined method `find_every' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:26:in `find'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:04:19) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:05:49) [GET]
+
+NoMethodError (undefined method `find_every' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:26:in `find'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:11:11) [GET]
+
+NoMethodError (undefined method `find_every' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:26:in `find'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:11:56) [GET]
+
+NoMethodError (undefined method `find_every' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:13:16) [GET]
+
+NoMethodError (undefined method `find_every' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:15:17) [GET]
+
+NoMethodError (undefined method `find_first' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:16:54) [GET]
+
+NoMethodError (undefined method `process_find_options' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:64:in `find_every'
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:19:01) [GET]
+Rendering test/index
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
