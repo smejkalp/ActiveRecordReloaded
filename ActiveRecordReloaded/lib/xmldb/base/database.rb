@@ -54,6 +54,8 @@ module XMLDB
         return Database.new(i)
       end
       
+      attr_accessor :obj
+      
     end
   end
 end

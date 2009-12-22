@@ -26,14 +26,14 @@ module XMLDB
       ##
       # Creates a new unique ID within the context of the Collection
       def createId() 
-        resource = @obj.createId()
-        return XMLDB::Base::Resource.getInstance(resource)
+        return @obj.createId()
       end 
       
       ##
       # Creates a new empty Resource with the provided id. 
-      def createResource(id, type = '')
-        return XMLDB::Base::Resource.getInstance(@obj.createResource(id, type))
+      def createResource(id, type ='XMLResource')
+        resource = @obj.createResource(id, type)
+        return XMLDB::Base::Resource.getInstance(resource)
       end 
       
       ##
@@ -105,13 +105,13 @@ module XMLDB
       ##
       # Removes the Resource from the database.
       def removeResource(res) 
-        @obj.removeResource(res)
+        @obj.removeResource(res.obj)
       end
       
       ##
       # Stores the provided resource into the database.
       def storeResource(res) 
-        @obj.storeResource(res)
+        @obj.storeResource(res.obj)
       end
       
       ##
@@ -119,6 +119,8 @@ module XMLDB
       def Collection.getInstance(i) 
         return Collection.new(i)
       end
+      
+      attr_accessor :obj
       
     end
   end
