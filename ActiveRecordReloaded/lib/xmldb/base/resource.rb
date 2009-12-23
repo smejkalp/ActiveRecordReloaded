@@ -1,3 +1,5 @@
+require 'rexml/document'
+
 module XMLDB
   module Base
     
@@ -53,6 +55,42 @@ module XMLDB
       end
       
       attr_accessor :obj
+      
+      ######################################################
+      ## XMLResource implementation
+      
+      ##
+      # Returns the content of the Resource as a REXML.
+      def getContentAsREXML()
+        return REXML::Document.new(@obj.getContent().toString(), { :compress_whitespace => :all})
+      end
+      
+      
+      ##
+      # Returns the content of the Resource as a REXML Root Node. Allows browsing using elements[]/attributes[] functions
+      def getContentAsREXMLRoot() 
+        return REXML::Document.new(@obj.getContent().toString(), { :compress_whitespace => :all}).root
+      end
+      
+      
+      ##
+      # Returns the unique id for the parent document to this Resource or null if the Resource does not have a parent document.
+      def getDocumentId() 
+        @obj.getDocumentId() 
+      end
+      
+      ##
+      # Sets the content of the Resource using a DOM Node as the source.
+      def setContentAsREXML(content) 
+        @obj.setContent(content.to_s)
+      end
+      
+      
+      ##
+      # Sets the content of the Resource using a SAX ContentHandler.
+      def setContentAsREXMLRoot(content) 
+        @obj.setContent(content.to_s)
+      end
       
     end
   end
