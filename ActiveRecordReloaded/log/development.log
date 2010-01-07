@@ -2962,3 +2962,295 @@ Completed in 8ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/test]
 Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:54:04) [GET]
 Rendering test/index
 Completed in 7ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (51.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (348.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (232.0ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (9.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (193.0ms)[0m   [0mDROP DATABASE IF EXISTS `ruby`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE DATABASE `ruby` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:04:09) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:04:26) [GET]
+
+NameError (undefined local variable or method `tableName' for ActiveRecordReloaded::Base:Class):
+  lib/active_record_reloaded/base.rb:116:in `process_find_options'
+  lib/active_record_reloaded/base.rb:97:in `find_every'
+  lib/active_record_reloaded/base.rb:30:in `find'
+  lib/active_record_reloaded/base.rb:15:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:05:05) [GET]
+Rendering test/index
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:08:33) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:17:08) [GET]
+
+TypeError (can't convert nil into String):
+  lib/active_record_reloaded/base.rb:206:in `+'
+  lib/active_record_reloaded/base.rb:206:in `set_attribute'
+  lib/active_record_reloaded/base.rb:184:in `method_missing'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:18:39) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:21:23) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 17:22:09) [GET]
+Rendering test/index
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:12:14) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:12:34) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.has_key?):
+  lib/active_record_reloaded/base.rb:224:in `has_attribute'
+  lib/active_record_reloaded/base.rb:189:in `method_missing'
+  lib/active_record_reloaded/base.rb:60:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:14:31) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.has_key?):
+  lib/active_record_reloaded/base.rb:224:in `has_attribute'
+  lib/active_record_reloaded/base.rb:189:in `method_missing'
+  lib/active_record_reloaded/base.rb:60:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:15:29) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:16:10) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:17:29) [GET]
+Rendering test/index
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:18:20) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:18:47) [GET]
+Rendering test/index
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:33:16) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:36:29) [GET]
+Rendering test/index
+Completed in 20ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:36:53) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:37:24) [GET]
+Rendering test/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:43:15) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.text):
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:43:25) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.text):
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (36.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:43:29) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.text):
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:44:48) [GET]
+Rendering test/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:46:06) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:47:02) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:50:05) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:52:03) [GET]
+
+NameError (undefined local variable or method `output' for #<TestController:0x4d1c7f8>):
+  app/controllers/test_controller.rb:10:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:52:27) [GET]
+Rendering test/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:52:50) [GET]
+
+RuntimeError (Not implemented):
+  lib/active_record_reloaded/base.rb:31:in `find'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (76.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 18:53:44) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]

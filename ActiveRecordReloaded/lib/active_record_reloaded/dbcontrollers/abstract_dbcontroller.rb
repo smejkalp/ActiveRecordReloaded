@@ -19,6 +19,10 @@ module ActiveRecordReloaded
       def delete(options)
         raise 'Method delete must be overridden'
       end
+      
+      def attributes(table)
+        raise 'Method delete must be overridden'
+      end
     end
   end
 end
