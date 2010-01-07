@@ -1668,3 +1668,1297 @@ Rendering rescues/layout (internal_server_error)
 Processing TestController#index (for 127.0.0.1 at 2009-12-11 17:19:01) [GET]
 Rendering test/index
 Completed in 18ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (6.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 09:50:51) [GET]
+Rendering test/index
+Completed in 55ms (View: 34, DB: 6) | 200 OK [http://127.0.0.1/test/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:10:31) [GET]
+Rendering test/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/test/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:11:26) [GET]
+Rendering test/index
+Completed in 20ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:12:22) [GET]
+Rendering test/index
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:12:58) [GET]
+Rendering test/index
+Completed in 20ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:13:51) [GET]
+Rendering test/index
+Completed in 36255ms (View: 11, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:16:00) [GET]
+Rendering test/index
+Completed in 5945ms (View: 11, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:16:28) [GET]
+Rendering test/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:16:30) [GET]
+Rendering test/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:16:30) [GET]
+Rendering test/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:16:31) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:17:06) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 12:20:01) [GET]
+Rendering test/index
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:24:00) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:26:25) [GET]
+
+SyntaxError (D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/lib/active_record_reloaded/base.rb:138: syntax error, unexpected $end, expecting kEND):
+  app/controllers/test_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:28:20) [GET]
+
+NoMethodError (undefined method `class_name' for #<ActiveRecordReloaded::Base:0x4d1c80c>):
+  lib/active_record_reloaded/base.rb:114:in `getPrimaryKeyIndex'
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:29:09) [GET]
+
+NoMethodError (undefined method `+' for :lower:Symbol):
+  lib/active_record_reloaded/base.rb:114:in `getPrimaryKeyIndex'
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:29:47) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:31:45) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:32:09) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:34:13) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  lib/active_record_reloaded/base.rb:119:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:35:25) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  lib/active_record_reloaded/base.rb:119:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (72.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:35:39) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.update):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:35:51) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.update):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:35:51) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.update):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:35:52) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.update):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:35:53) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.update):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:35:54) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.update):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:36:36) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.update):
+  lib/active_record_reloaded/base.rb:118:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:38:12) [GET]
+
+NoMethodError (undefined method `has_key' for {}:Hash):
+  lib/active_record_reloaded/base.rb:76:in `process_find_options'
+  lib/active_record_reloaded/base.rb:69:in `find_every'
+  lib/active_record_reloaded/base.rb:27:in `find'
+  lib/active_record_reloaded/base.rb:14:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  C:/Ruby/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  C:/Ruby/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  C:/Ruby/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  C:\Ruby\bin\rdebug-ide:19:in `load'
+  C:\Ruby\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (53.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:38:33) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:40:41) [GET]
+Rendering test/index
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:43:07) [GET]
+Rendering test/index
+Completed in 18ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:43:15) [GET]
+Rendering test/index
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:46:55) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:48:00) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:49:27) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:52:40) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:54:55) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:57:13) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 13:59:18) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:03:35) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:04:43) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:11:45) [GET]
+
+NoMethodError (undefined method `update' for []:Array):
+  lib/active_record_reloaded/base.rb:120:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:12:36) [GET]
+
+NoMethodError (undefined method `update' for []:Array):
+  lib/active_record_reloaded/base.rb:120:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:13:56) [GET]
+Rendering test/index
+Completed in 19ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:14:38) [GET]
+Rendering test/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:17:17) [GET]
+Rendering test/index
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:18:16) [GET]
+
+NoMethodError (undefined method `update' for []:Array):
+  lib/active_record_reloaded/base.rb:120:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:18:49) [GET]
+
+TypeError (can't convert String into Integer):
+  lib/active_record_reloaded/base.rb:120:in `[]='
+  lib/active_record_reloaded/base.rb:120:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:19:42) [GET]
+
+TypeError (can't convert String into Integer):
+  lib/active_record_reloaded/base.rb:120:in `[]='
+  lib/active_record_reloaded/base.rb:120:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:19:57) [GET]
+
+TypeError (can't convert Symbol into String):
+  lib/active_record_reloaded/base.rb:116:in `+'
+  lib/active_record_reloaded/base.rb:116:in `getPrimaryKeyIndex'
+  lib/active_record_reloaded/base.rb:120:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:21:08) [GET]
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  lib/active_record_reloaded/base.rb:122:in `[]='
+  lib/active_record_reloaded/base.rb:122:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:21:42) [GET]
+
+TypeError (Symbol as array index):
+  lib/active_record_reloaded/base.rb:122:in `[]='
+  lib/active_record_reloaded/base.rb:122:in `initializePrimaryKey'
+  lib/active_record_reloaded/base.rb:36:in `initialize'
+  app/controllers/test_controller.rb:6:in `new'
+  app/controllers/test_controller.rb:6:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:24:30) [GET]
+Rendering test/index
+Completed in 18ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:25:15) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:38:26) [GET]
+
+NoMethodError (undefined method `new' for "Class":String):
+  lib/active_record_reloaded/base.rb:111:in `instantiate'
+  lib/active_record_reloaded/base.rb:77:in `find_every'
+  lib/active_record_reloaded/base.rb:75:in `each'
+  lib/active_record_reloaded/base.rb:75:in `find_every'
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:39:07) [GET]
+
+NoMethodError (undefined method `convertToObject' for #<Class:0x4cf638c>):
+  lib/active_record_reloaded/base.rb:112:in `instantiate'
+  lib/active_record_reloaded/base.rb:77:in `find_every'
+  lib/active_record_reloaded/base.rb:75:in `each'
+  lib/active_record_reloaded/base.rb:75:in `find_every'
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:39:40) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:44:21) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:45:01) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:45:22) [GET]
+
+NoMethodError (protected method `convertToObject' called for #<ActiveRecordReloaded::Base:0x4cf5b1c @attributes={:Uid=>0}>):
+  lib/active_record_reloaded/base.rb:112:in `instantiate'
+  lib/active_record_reloaded/base.rb:77:in `find_every'
+  lib/active_record_reloaded/base.rb:75:in `each'
+  lib/active_record_reloaded/base.rb:75:in `find_every'
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:58:45) [GET]
+
+RuntimeError (Given parameter is not hashmap):
+  lib/active_record_reloaded/base.rb:154:in `convertToObject'
+  lib/active_record_reloaded/base.rb:112:in `instantiate'
+  lib/active_record_reloaded/base.rb:77:in `find_every'
+  lib/active_record_reloaded/base.rb:75:in `each'
+  lib/active_record_reloaded/base.rb:75:in `find_every'
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 14:59:27) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:04:32) [GET]
+Rendering test/index
+Completed in 17ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:06:01) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:09:12) [GET]
+
+NoMethodError (private method `convertToObject' called for #<ActiveRecordReloaded::Base:0x4cf4c08 @attributes={:Uid=>0}>):
+  lib/active_record_reloaded/base.rb:112:in `instantiate'
+  lib/active_record_reloaded/base.rb:77:in `find_every'
+  lib/active_record_reloaded/base.rb:75:in `each'
+  lib/active_record_reloaded/base.rb:75:in `find_every'
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:14:10) [GET]
+
+NoMethodError (protected method `convertToObject' called for #<ActiveRecordReloaded::Base:0x4cf6328 @attributes={:Uid=>0}>):
+  lib/active_record_reloaded/base.rb:112:in `instantiate'
+  lib/active_record_reloaded/base.rb:77:in `find_every'
+  lib/active_record_reloaded/base.rb:75:in `each'
+  lib/active_record_reloaded/base.rb:75:in `find_every'
+  lib/active_record_reloaded/base.rb:26:in `find'
+  lib/active_record_reloaded/base.rb:13:in `all'
+  app/controllers/test_controller.rb:8:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:15:14) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:20:28) [GET]
+Rendering test/index
+Completed in 19ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:21:00) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:25:35) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.has_key?):
+  lib/active_record_reloaded/base.rb:117:in `method_missing'
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:27:18) [GET]
+
+NoMethodError (undefined method `autor' for #<ActiveRecordReloaded::Base:0x423ab64>):
+  app/controllers/test_controller.rb:9:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (71.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:35:56) [GET]
+Rendering test/index
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:36:14) [GET]
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:41:44) [GET]
+Rendering test/index
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:42:00) [GET]
+Rendering test/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:45:20) [GET]
+Rendering test/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #16 of app/views/test/index.html.erb:
+13: 			<% @output.each {
+14: 				|object| %>
+15: 			<tr>
+16: 				<% object.attribute_names.each {
+17: 					|attribute| %>
+18: 					<td><%= attribute %>: <%= object.attribute %></td>
+19: 				<% } %>
+
+    app/views/test/index.html.erb:16
+    app/views/test/index.html.erb:13:in `each'
+    app/views/test/index.html.erb:13
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (83.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:45:35) [GET]
+Rendering test/index
+
+ActionView::TemplateError (undefined method `<=>' for :text:Symbol) on line #16 of app/views/test/index.html.erb:
+13: 			<% @output.each {
+14: 				|object| %>
+15: 			<tr>
+16: 				<% object.attribute_names.each {
+17: 					|attribute| %>
+18: 					<td><%= attribute %>: <%= object.attribute %></td>
+19: 				<% } %>
+
+    lib/active_record_reloaded/base.rb:40:in `sort'
+    lib/active_record_reloaded/base.rb:40:in `attribute_names'
+    app/views/test/index.html.erb:16
+    app/views/test/index.html.erb:13:in `each'
+    app/views/test/index.html.erb:13
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (48.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:47:31) [GET]
+Rendering test/index
+
+ActionView::TemplateError (undefined method `<=>' for :text:Symbol) on line #16 of app/views/test/index.html.erb:
+13: 			<% @output.each {
+14: 				|object| %>
+15: 				<tr>
+16: 				<% object.attribute_names.each {
+17: 					|attribute| %>
+18: 					<td><%= attribute %>: </td>
+19: 				<% } %>
+
+    lib/active_record_reloaded/base.rb:40:in `sort'
+    lib/active_record_reloaded/base.rb:40:in `attribute_names'
+    app/views/test/index.html.erb:16
+    app/views/test/index.html.erb:13:in `each'
+    app/views/test/index.html.erb:13
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (45.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:47:57) [GET]
+Rendering test/index
+
+ActionView::TemplateError (undefined method `<=>' for :text:Symbol) on line #16 of app/views/test/index.html.erb:
+13: 			<% @output.each {
+14: 				|object| %>
+15: 				<tr>
+16: 				<% object.attribute_names.each {
+17: 					|attribute| %>
+18: 					<td><%= attribute %>: <%= object.attribute %></td>
+19: 				<% } %>
+
+    lib/active_record_reloaded/base.rb:40:in `sort'
+    lib/active_record_reloaded/base.rb:40:in `attribute_names'
+    app/views/test/index.html.erb:16
+    app/views/test/index.html.erb:13:in `each'
+    app/views/test/index.html.erb:13
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (85.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:48:15) [GET]
+Rendering test/index
+Completed in 19ms (View: 8, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:49:01) [GET]
+Rendering test/index
+ERROR: compiling _run_erb_app47views47test47index46html46erb RAISED compile error
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected '('
+...utput_buffer.concat(( object.(attribute.to_s) ).to_s); @outp...
+                              ^
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected ')', expecting '}'
+...bject.(attribute.to_s) ).to_s); @output_buffer.concat "</td>...
+                              ^
+Function body:           def _run_erb_app47views47test47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n"
+@output_buffer.concat "<html>\n"
+@output_buffer.concat "\t<head>\n"
+@output_buffer.concat "\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />\n"
+@output_buffer.concat "\t\t<title>Untitled Document</title>\n"
+@output_buffer.concat "\t</head>\n"
+@output_buffer.concat "\t<body>\n"
+@output_buffer.concat "\t\tCisty vystup: "; @output_buffer.concat(( @output ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t<br>\n"
+@output_buffer.concat "\t\t<br>\n"
+@output_buffer.concat "\t\t";  if (@output.is_a?(Array)) ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t<table border=\"1\">\n"
+@output_buffer.concat "\t\t\t";  @output.each {
+				|object| ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t<tr>\n"
+@output_buffer.concat "\t\t\t\t";  object.attribute_names.each {
+					|attribute| ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t\t<td>"; @output_buffer.concat(( attribute ).to_s); @output_buffer.concat ": "; @output_buffer.concat(( object.(attribute.to_s) ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t\t\t\t";  } ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t</tr>\n"
+@output_buffer.concat "\t\t\t";  } ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t</table>\n"
+@output_buffer.concat "\t\t";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "\t</body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:29:in `compile!'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+-e:2:in `load'
+-e:2
+
+ActionView::TemplateError (compile error
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected '('
+...utput_buffer.concat(( object.(attribute.to_s) ).to_s); @outp...
+                              ^
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected ')', expecting '}'
+...bject.(attribute.to_s) ).to_s); @output_buffer.concat "</td>...
+                              ^) on line #18 of app/views/test/index.html.erb:
+15: 				<tr>
+16: 				<% object.attribute_names.each {
+17: 					|attribute| %>
+18: 					<td><%= attribute %>: <%= object.(attribute.to_s) %></td>
+19: 				<% } %>
+20: 				</tr>
+21: 			<% } %>
+
+    app/views/test/index.html.erb:29:in `compile!'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (43.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:49:26) [GET]
+Rendering test/index
+ERROR: compiling _run_erb_app47views47test47index46html46erb RAISED compile error
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected '('
+...utput_buffer.concat(( object.(attribute.to_s()) ).to_s); @ou...
+                              ^
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected ')', expecting '}'
+...ect.(attribute.to_s()) ).to_s); @output_buffer.concat "</td>...
+                              ^
+Function body:           def _run_erb_app47views47test47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n"
+@output_buffer.concat "<html>\n"
+@output_buffer.concat "\t<head>\n"
+@output_buffer.concat "\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />\n"
+@output_buffer.concat "\t\t<title>Untitled Document</title>\n"
+@output_buffer.concat "\t</head>\n"
+@output_buffer.concat "\t<body>\n"
+@output_buffer.concat "\t\tCisty vystup: "; @output_buffer.concat(( @output ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\t\t<br>\n"
+@output_buffer.concat "\t\t<br>\n"
+@output_buffer.concat "\t\t";  if (@output.is_a?(Array)) ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t<table border=\"1\">\n"
+@output_buffer.concat "\t\t\t";  @output.each {
+				|object| ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t<tr>\n"
+@output_buffer.concat "\t\t\t\t";  object.attribute_names.each {
+					|attribute| ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t\t<td>"; @output_buffer.concat(( attribute ).to_s); @output_buffer.concat ": "; @output_buffer.concat(( object.(attribute.to_s()) ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t\t\t\t";  } ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t\t\t</tr>\n"
+@output_buffer.concat "\t\t\t";  } ; @output_buffer.concat "\n"
+@output_buffer.concat "\t\t</table>\n"
+@output_buffer.concat "\t\t";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "\t</body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:29:in `compile!'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+C:/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+-e:2:in `load'
+-e:2
+
+ActionView::TemplateError (compile error
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected '('
+...utput_buffer.concat(( object.(attribute.to_s()) ).to_s); @ou...
+                              ^
+D:/Ondra/Skola/VS/7.semestr/OBP/projekt/aptana/ActiveRecordReloaded/app/views/test/index.html.erb:18: syntax error, unexpected ')', expecting '}'
+...ect.(attribute.to_s()) ).to_s); @output_buffer.concat "</td>...
+                              ^) on line #18 of app/views/test/index.html.erb:
+15: 				<tr>
+16: 				<% object.attribute_names.each {
+17: 					|attribute| %>
+18: 					<td><%= attribute %>: <%= object.(attribute.to_s()) %></td>
+19: 				<% } %>
+20: 				</tr>
+21: 			<% } %>
+
+    app/views/test/index.html.erb:29:in `compile!'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:52:16) [GET]
+Rendering test/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:52:49) [GET]
+Rendering test/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:53:04) [GET]
+Rendering test/index
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:53:42) [GET]
+Rendering test/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://127.0.0.1/test]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TestController#index (for 127.0.0.1 at 2010-01-07 15:54:04) [GET]
+Rendering test/index
+Completed in 7ms (View: 5, DB: 1) | 200 OK [http://127.0.0.1/test]

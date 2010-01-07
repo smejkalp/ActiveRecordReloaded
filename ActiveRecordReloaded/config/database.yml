@@ -18,10 +18,10 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ActiveRecordReloaded_development
+  database: ruby
   pool: 5
   username: root
-  password:
+  password: 123456
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -31,18 +31,18 @@ test:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ActiveRecordReloaded_test
+  database: ruby
   pool: 5
   username: root
-  password:
+  password: 123456
   socket: /tmp/mysql.sock
 
 production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ActiveRecordReloaded_production
+  database: ruby
   pool: 5
   username: root
-  password: 
+  password: 123456
   socket: /tmp/mysql.sock

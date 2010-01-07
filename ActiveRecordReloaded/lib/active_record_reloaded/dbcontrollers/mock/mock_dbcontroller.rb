@@ -28,11 +28,11 @@ module ActiveRecordReloaded
       
       private
         def getElement
-          return Array[
-                :id     =>  1,
+          return {
+                :uid     =>  1,
                 :text   =>  'text prispevku',
                 :autor  =>  'pepa'
-            ]
+            }
         end
     end
   end

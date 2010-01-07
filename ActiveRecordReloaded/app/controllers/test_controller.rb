@@ -6,5 +6,6 @@ class TestController < ApplicationController
     @inst = @cls.new
     
     @output = @cls.all
+    
   end
 end

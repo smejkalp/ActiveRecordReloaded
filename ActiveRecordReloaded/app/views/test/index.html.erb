@@ -5,6 +5,21 @@
 		<title>Untitled Document</title>
 	</head>
 	<body>
-		<%= @output %>
+		Cisty vystup: <%= @output %>
+		<br>
+		<br>
+		<% if (@output.is_a?(Array)) %>
+		<table border="1" width="100%">
+			<% @output.each {
+				|object| %>
+				<tr>
+				<% object.attribute_names.each {
+					|attribute| %>
+					<td><strong><%= attribute %></strong>: <%= object.send(attribute) %></td>
+				<% } %>
+				</tr>
+			<% } %>
+		</table>
+		<% end %>
 	</body>
 </html>
