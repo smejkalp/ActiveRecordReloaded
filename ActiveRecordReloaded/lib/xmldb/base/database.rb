@@ -1,21 +1,13 @@
 require 'rjb'
-
+require 'xmldb/wrapped_object'
 require 'xmldb/base/collection'
+require 'xmldb/base/configurable'
 
 module XMLDB
   module Base
     
-    class Database < Configurable
-      
-      ##
-      # Initialize 
-      def initialize (db)
-        @obj = db
-        
-        if (@obj == nil)
-          raise 'Database initialised with empty object'
-        end
-      end
+    class Database < XMLDB::WrappedObject
+      include Configurable
       
       ##
       # acceptsURI determines whether this Database implementation can handle the URI. 
@@ -47,14 +39,6 @@ module XMLDB
       def getNames() 
         return @obj.getNames()
       end
-      
-      ##
-      # Get instance of wrapping class from wrapped class
-      def Database.getInstance(i) 
-        return Database.new(i)
-      end
-      
-      attr_accessor :obj
       
     end
   end

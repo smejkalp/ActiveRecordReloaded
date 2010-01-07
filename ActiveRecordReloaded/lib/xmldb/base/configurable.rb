@@ -1,7 +1,7 @@
 module XMLDB
   module Base
     
-    class Configurable
+    module Configurable
       
       ##
       # Returns the value of the property identified by name.

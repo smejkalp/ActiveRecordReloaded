@@ -33,7 +33,6 @@ module XMLDB
       end
       
       return  XMLDB::Base::Database.getInstance(db)
-      
     end
     
     ##

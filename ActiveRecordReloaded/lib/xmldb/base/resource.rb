@@ -13,7 +13,6 @@ module XMLDB
         if (@obj == nil)
           raise 'Resource initialised with empty object'
         end
-        
       end 
       
       ##

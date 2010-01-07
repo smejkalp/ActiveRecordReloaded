@@ -1,21 +1,13 @@
 require 'xmldb/base/resource'
 require 'xmldb/base/configurable'
+require 'xmldb/base/service'
+require 'xmldb/wrapped_object'
 
 module XMLDB
   module Base
     
-    class Collection < Configurable
-      
-      ##
-      # Initialize 
-      def initialize(c)
-        @obj = c
-        
-        if (@obj == nil)
-          raise 'Collection initialised with empty object'
-        end
-        
-      end 
+    class Collection < XMLDB::WrappedObject
+      include Configurable
       
       ##
       # Releases all resources consumed by the Collection. 
@@ -74,14 +66,23 @@ module XMLDB
       
       ##
       # Returns a Service instance for the requested service name and version. 
-      def getService(name, version) 
-        @obj.getService(name, version) 
+      def getService(name, version)
+        serviceJava = @obj._invoke('getService', 'Ljava.lang.String;Ljava.lang.String;', name, version)
+        #serviceJava = @obj.getService(name, version)
+        service = Service.getServiceInstance(serviceJava)
+        if service == nil
+          raise "Cannot wrap service " + service.getClass().toString().to_s
+        end
+        return service
       end 
       
       ##
       # Provides a list of all services known to the collection. 
-      def getServices() 
-        @obj.getServices() 
+      def getServices()
+        retArr = []
+        arr = @obj.getServices()
+        arr.each{|oj| o = Service.getServiceInstance(oj); (retArr << o) unless o.nil?;}
+        return retArr
       end 
       
       ##
@@ -113,14 +114,6 @@ module XMLDB
       def storeResource(res) 
         @obj.storeResource(res.obj)
       end
-      
-      ##
-      # Get instance of wrapping class from wrapped class
-      def Collection.getInstance(i) 
-        return Collection.new(i)
-      end
-      
-      attr_accessor :obj
       
     end
   end
