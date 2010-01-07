@@ -26,6 +26,14 @@ module ActiveRecordReloaded
         raise 'Method is not implemented'
       end
       
+      def attributes(table)
+        return { 
+               :uid => 0, 
+               :text => '', 
+               :autor => '' 
+            }
+      end
+      
       private
         def getElement
           return {

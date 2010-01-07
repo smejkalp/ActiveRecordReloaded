@@ -32,6 +32,25 @@ module ActiveRecordReloaded
       end
     end
     
+      # Returns table name
+      # TODO: dodelat ziskani nazvu tabulky
+      def self.table_name
+        #return self.class.name
+        'tabulka'
+      end
+      
+      # Returns a table primary key index used for attributes
+      # TODO: dodelat ziskani primarniho klice
+      def self.primary_key
+        #self.class.name + :Id
+        :Uid
+      end
+    
+      # Deletes object in database according to its ID
+      def self.delete(id)
+        options = { :id => id }
+        @@dbcontroller.delete(options)
+      end
     
     
     ################## PUBLIC INSTANCE METHODS ######################
@@ -39,7 +58,7 @@ module ActiveRecordReloaded
       # New object method
       def initialize
         @attributes = { }
-        initializePrimaryKey
+        @attributes = @@dbcontroller.attributes(table_name)
       end
     
       # Returns all object's attributes
@@ -48,22 +67,24 @@ module ActiveRecordReloaded
       end
     
       # Saves object into a database
+      # TODO: po vlozeni aktualizovat primarni klic objektu
       def save
-        hashmap = convertToMap
+        hashmap = convert_to_map
         
-        if (!hasPrimaryKey)
+        if (!has_primary_key)
           hashmap = @@dbcontroller.insert(hashmap)
         else
           hashmap = @@dbcontroller.update(hashmap)
         end
-        
-        convertToObject(hashmap)
+
       end
       
       # Destroys object in database
       def destroy
-      
-    end
+        id = get_attribute(primary_key)
+        delete(id)
+        set_attribute(id, default_primary_key_value)
+      end
     
     
     ################## PROTECTED CLASS METHODS ######################
@@ -99,29 +120,21 @@ module ActiveRecordReloaded
       
       # Makes a lower tier options according to conditions parameters
       def self.process_find_options(options)
-        limit = 0
-        order = ''
-        if (options.has_key?(:limit))
-          limit = options[:limit]
-        end
-        
-        if (options.has_key?(:order))
-          order = options[:order]
-        end
-        
-        
         return {
-                :from   =>  tableName,
-                :limit  =>  limit,
-                :order  =>  order
+                :from   => table_name,
+                :limit  => option(:limit, 0, options),
+                :offset => option(:offset, 0, options),
+                :order  => option(:order, '', options)
             }
       end
       
-      # Returns table name
-      def self.tableName
-        #TODO: dodelat ziskani nazvu tabulky
-        #return self.class.name
-        'tabulka'
+      # Gets a option value from options (HashMap) or default value if it does not exists
+      def self.option(key, defaultValue, options)
+        if (options.has_key?(key))
+          return options[key]
+        end
+        
+        return defaultValue
       end
       
       # Creates a new instace of object from hash map
@@ -135,9 +148,10 @@ module ActiveRecordReloaded
    ################## PROTECTED INSTANCE METHODS ######################
    protected
       # Returns true if object has non-zero primary key
-      def hasPrimaryKey
-        if ( @attributes.has_key?(getPrimaryKeyIndex) == true )
-          if ( @attributes[getPrimaryKeyIndex] != 0 )
+      def has_primary_key
+        if ( has_attribute(primary_key) == true )
+          pkey = get_attribute(primary_key)
+          if ( pkey != 0 && pkey != '' && pkey != default_primary_key_value )
             return true
           end
         end
@@ -145,44 +159,39 @@ module ActiveRecordReloaded
         return false
       end
       
-      # Returns a table primary key index used for attributes
-      def getPrimaryKeyIndex
-        # TODO: dodelat ziskani nazvu tabulky
-        #self.class.name + :Id
-        :Uid
+      # Returns default value of primary key
+      def default_primary_key_value
+        attrs = @@dbcontroller.attributes(table_name)
+        return attrs[primary_key]
       end
-    
-      # Initalizes a primary key attribute
-      def initializePrimaryKey
-        @attributes[getPrimaryKeyIndex()] = 0
+      
+      # Resets primary key value to default
+      def reset_primary_key_to_default
+        @attributes[primary_key] = default_primary_key_value
       end
     
       # Converts object to map which is sent into lower tiers
-      def convertToMap
-        if (hasPrimaryKey == false)
-          initializePrimaryKey
-        end
-        
+      def convert_to_map
         return @attributes
       end
     
       # Creates object attributes using hash map
-      def convertToObject(hashmap)
+      def convert_to_object(hashmap)
         # TODO: pravdepodobne tuto metodu vyhodit. Vyuziva se instantiate
         if ( !hashmap.is_a?(Hash) )
           raise 'Given parameter is not hashmap'
         end
         
         @attributes = hashmap
-        if (!hasPrimaryKey)
-          initializePrimaryKey
-        end
       end
 
       # Determines what to do if method does not exists
       def method_missing(method_id, *arguments, &block)
-        if (@attributes.has_key?(method_id))
-          return @attributes[method_id]
+        if (has_attribute(method_id))
+          case arguments.length
+            when 0 then return get_attribute(method_id)
+            when 1 then return set_attribute(method_id, arguments[0])
+          end
         end
       end
       
@@ -190,6 +199,31 @@ module ActiveRecordReloaded
       def respond_to?(method_id)
         if (@attributes.has_key?(method_id))
           return true
+        end
+        return false
+      end
+
+      # Returns attribute value
+      def get_attribute(attribute)
+        if (!has_attribute(attribute)) 
+          raise 'Object does not have attribute ' + attribute
+        end
+        return @attributes[attribute]
+      end
+    
+      # Sets attribute value
+      def set_attribute(attribute, value) 
+        if (!has_attribute(attribute)) 
+          raise 'Object does not have attribute ' + attribute
+        end
+        
+        @attributes[attribute] = value
+      end
+    
+      # Checks if object has the attribute 
+      def has_attribute(attribute)
+        if (@attributes.has_key?(attribute))
+          return true 
         end
         return false
       end
