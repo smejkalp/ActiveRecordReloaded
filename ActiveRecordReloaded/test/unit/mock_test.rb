@@ -60,10 +60,6 @@ class MockTest < ActiveSupport::TestCase
       assert false, "Prazdny vysledek"
     end
     
-    if @found.length > 1
-      assert false, "Prilis dlouhy vysledek"
-    end
-    
     assert true
     
   end
