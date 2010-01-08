@@ -43,7 +43,7 @@ module ActiveRecordReloaded
       # TODO: dodelat ziskani primarniho klice
       def self.primary_key
         #self.class.name + :Id
-        :Uid
+        :uid
       end
     
       # Deletes object in database according to its ID
@@ -59,31 +59,43 @@ module ActiveRecordReloaded
       def initialize
         @attributes = { }
         @attributes = @@dbcontroller.attributes(table_name)
+        @new_record = true
       end
     
       # Returns all object's attributes
       def attribute_names
         @attributes.keys
       end
+      
+      def primary_key
+        return self.class.primary_key
+      end
+      
+      def table_name
+        return self.class.table_name
+      end
+    
+      # Returns if the object is new
+      def new_record?
+        return @new_record
+      end
     
       # Saves object into a database
       # TODO: po vlozeni aktualizovat primarni klic objektu
       def save
-        hashmap = convert_to_map
-        
-        if (!has_primary_key)
-          hashmap = @@dbcontroller.insert(hashmap)
-        else
-          hashmap = @@dbcontroller.update(hashmap)
-        end
-
+        @new_record ? insert : update
       end
       
       # Destroys object in database
       def destroy
+        if (!@new_record)
+            raise 'Cannot delete object from database because it has not been inserted'
+        end
+        
         id = get_attribute(primary_key)
         delete(id)
         set_attribute(id, default_primary_key_value)
+        @new_record = true
       end
     
     
@@ -141,6 +153,7 @@ module ActiveRecordReloaded
       def self.instantiate(hashmap)
         obj = self.new
         obj.instance_variable_set('@attributes', hashmap)
+        obj.instance_variable_set('@new_record', false)
         return obj
       end
       
@@ -226,6 +239,18 @@ module ActiveRecordReloaded
           return true 
         end
         return false
+      end
+
+      # Inserts new object into database
+      def insert
+        uid = @@dbcontroller.insert(convert_to_map)
+        set_attribute(primary_key, uid)
+        @new_record = false
+      end
+
+      # Updates existing object in database
+      def update
+        @@dbcontroller.update(convert_to_map)
       end
 
   end

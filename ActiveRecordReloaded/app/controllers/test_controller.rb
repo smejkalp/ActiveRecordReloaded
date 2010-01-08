@@ -3,10 +3,9 @@
 
 class TestController < ApplicationController
   def index
-#    @cls = ActiveRecordReloaded::Base
+    #@cls = ActiveRecordReloaded::Base
     @cls = TestLibrary
     @inst = @cls.new
-    
     #@output = @cls.all
     #@output = @cls.first
     @output = @cls.find(:all)
@@ -20,6 +19,7 @@ class TestController < ApplicationController
     inst2 = @cls.new
     inst2.autor('Karel')
     inst2.text('Karluv clanek')
+    inst2.save
     @output.push(inst2)
     @output.push(@cls.new)
   end
