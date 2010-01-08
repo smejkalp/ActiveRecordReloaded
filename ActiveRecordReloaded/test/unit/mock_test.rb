@@ -1,5 +1,5 @@
-require "test_helper"
-class MockTest < ActiveSupport::TestCase
+require "test/unit"
+class MockTest < Test::Unit::TestCase
   # Testuje metodu Mock.all
   def test_all
     @all = TestLibrary.all
