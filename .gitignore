@@ -1,2 +1,3 @@
 *.log
 .project
+ActiveRecordReloaded/doc/
