@@ -50,7 +50,7 @@ class MockTest < ActiveSupport::TestCase
   
   # Testuje metodu Mock.find
   def test_find_first
-    @found = TestLibrary.find( :first, :limit => 10, :order => 'sloupec' ) 
+    @found = TestLibrary.find( :first, :order => 'sloupec' ) 
     
     if @found == nil
       assert false, "Vratilo se nil"
@@ -66,12 +66,44 @@ class MockTest < ActiveSupport::TestCase
   
   # Testuje metodu Mock.attribute_names
   def test_attribute_names
+    @inst = TestLibrary.new
     
+    @result = @inst.attribute_names
+    if @result == nil
+      assert false, "Vratilo se nil"
+    end
+    
+    assert true
   end
   
-  # Testuje metodu Mock.save
-  def test_save
+  # Testuje metodu Mock.save pri update objektu
+  def test_save_update
+    @found = TestLibrary.find( :first, :order => 'sloupec' )
     
+    if @found == nil
+      assert false, "Vratilo se nil"
+    end
+    
+    @found.autor = "Pepa"
+    
+    if @found.save.is_a? Numeric
+      assert true
+    else    
+      assert false, @found.save
+    end
+  end
+  
+  # Testuje metodu Mock.save pri insert objektu
+  def test_save_insert
+    @new = TestLibrary.new
+    @new.autor = "Novy"
+    @new.text = "La la la la..."
+    
+    if @new.save.is_a? Numeric
+      assert true
+    else 
+      assert false, "Nepodarilo se ulozit"
+    end
   end
   
   # Testuje metodu Mock.destroy
