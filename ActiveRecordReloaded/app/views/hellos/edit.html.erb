@@ -1,0 +1,19 @@
+<h1>Editing hello</h1>
+
+<% form_for(@hello) do |f| %>
+
+  <p>
+    <%= f.label :autor %><br />
+    <%= f.text_field :autor %>
+  </p>
+  <p>
+    <%= f.label :text %><br />
+    <%= f.text_area :text %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @hello %> |
+<%= link_to 'Back', hellos_path %>

@@ -1,0 +1,13 @@
+<p>
+  <b>Autor:</b>
+  <%=h @hello.autor %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%=h @hello.text %>
+</p>
+
+
+<%= link_to 'Edit', edit_hello_path(@hello) %> |
+<%= link_to 'Back', hellos_path %>
