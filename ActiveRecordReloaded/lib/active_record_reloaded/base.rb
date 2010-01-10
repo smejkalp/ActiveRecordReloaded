@@ -246,6 +246,7 @@ module ActiveRecordReloaded
         uid = @@dbcontroller.insert(convert_to_map)
         set_attribute(primary_key, uid)
         @new_record = false
+        return uid
       end
 
       # Updates existing object in database
