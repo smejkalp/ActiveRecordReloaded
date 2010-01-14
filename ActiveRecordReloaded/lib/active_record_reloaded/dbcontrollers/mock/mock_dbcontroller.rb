@@ -19,19 +19,19 @@ module ActiveRecordReloaded
         
         # Insert a row into database using hash map
         # Returns new inserted ID
-        def insert(options)
+        def insert(table, options)
           return 100
         end
         
         # Updates row in database using hash map
         # Returns number of affected rows
-        def update(options)
+        def update(table, options)
           return 5
         end
         
         # Deletes row in database using specific options
         # Returns number of deleted rows
-        def delete(options)
+        def delete(table, options)
           raise 'Method is not implemented'
         end
         

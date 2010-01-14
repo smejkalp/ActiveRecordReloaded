@@ -31,6 +31,18 @@ module XMLDB
       end
       
       ##
+      # Returns a Array containing an XML representation of all resources stored in the set.
+      def getMembersAsArray() 
+        ret = []
+        it = self.getIterator() 
+        while(it.hasMoreResources())
+          ret << it.nextResource().getContentAsREXML()
+        end
+        
+        return ret
+      end
+      
+      ##
       # Returns the Resource instance stored at the index specified by index.
       def getResource(index) 
         XMLDB::Base::Resource.getInstance(@obj.getResource(index))

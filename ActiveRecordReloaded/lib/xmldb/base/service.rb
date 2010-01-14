@@ -22,12 +22,13 @@ module XMLDB
       
       def Service.getServiceInstance(service)
         require 'xmldb/modules/x_path_query_service'
+        require 'xmldb/modules/update_query_service'
         
         javaClass = Rjb::import("java.lang.Class")
         if(javaClass.forName("org.xmldb.api.modules.XQueryService").isAssignableFrom(service.getClass()))
           return XMLDB::Modules::XPathQueryService.getInstance(service)
-        elsif(javaClass.forName("org.xmldb.api.modules.XQueryService").isAssignableFrom(service.getClass()))
-          return XMLDB::Modules::XPathQueryService.getInstance(service)
+        elsif(javaClass.forName("org.xmldb.api.modules.XUpdateQueryService").isAssignableFrom(service.getClass()))
+          return XMLDB::Modules::UpdateQueryService.getInstance(service)
         else
           return nil
         end

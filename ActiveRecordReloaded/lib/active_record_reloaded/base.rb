@@ -1,10 +1,10 @@
-require 'active_record_reloaded/dbcontrollers/mock/mock_dbcontroller'
+require 'active_record_reloaded/dbcontrollers/xml/xml_dbcontroller'
 
 module ActiveRecordReloaded
   
   class Base
     
-    @@dbcontroller = ActiveRecordReloaded::Dbcontrollers::MockDbcontroller.new
+    @@dbcontroller = ActiveRecordReloaded::Dbcontrollers::XmlDbcontroller.new
     
     
     
@@ -22,7 +22,7 @@ module ActiveRecordReloaded
       
       # Returns objects using conditions
       def self.find(*args)
-      options = args.extract_options!
+      options = args.is_a?(::Hash) ? args.pop : args.is_a?(Array) ? args.pop : {}
       
       case args.first
         when :first then find_first(options)
@@ -35,15 +35,14 @@ module ActiveRecordReloaded
       # Returns table name
       # TODO: dodelat ziskani nazvu tabulky
       def self.table_name
-        #return self.class.name
-        'tabulka'
+        return self.name
       end
       
       # Returns a table primary key index used for attributes
       # TODO: dodelat ziskani primarniho klice
       def self.primary_key
         #self.class.name + :Id
-        :uid
+        :_ID_
       end
     
       # Deletes object in database according to its ID
@@ -134,9 +133,10 @@ module ActiveRecordReloaded
       def self.process_find_options(options)
         return {
                 :from   => table_name,
-                :limit  => option(:limit, 0, options),
+                :limit  => option(:limit, nil, options),
                 :offset => option(:offset, 0, options),
-                :order  => option(:order, '', options)
+                :order  => option(:order, nil, options),
+                :conditions => option(:conditions, nil, options)
             }
       end
       
@@ -200,6 +200,7 @@ module ActiveRecordReloaded
 
       # Determines what to do if method does not exists
       def method_missing(method_id, *arguments, &block)
+        method_id = method_id.to_s
         if (has_attribute(method_id))
           case arguments.length
             when 0 then return get_attribute(method_id)
@@ -235,6 +236,7 @@ module ActiveRecordReloaded
     
       # Checks if object has the attribute 
       def has_attribute(attribute)
+        attribute = attribute.to_s
         if (@attributes.has_key?(attribute))
           return true 
         end
@@ -243,15 +245,15 @@ module ActiveRecordReloaded
 
       # Inserts new object into database
       def insert
-        uid = @@dbcontroller.insert(convert_to_map)
-        set_attribute(primary_key, uid)
+        uid = @@dbcontroller.insert(table_name, convert_to_map)
+        #set_attribute(primary_key, uid)
         @new_record = false
         return uid
       end
 
       # Updates existing object in database
       def update
-        @@dbcontroller.update(convert_to_map)
+        @@dbcontroller.update(table_name, convert_to_map)
       end
 
   end

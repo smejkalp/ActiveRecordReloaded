@@ -22,7 +22,7 @@ module XMLDB
       
       ##
       # Run an XPath query against the Collection.
-      def query(query) 
+      def query(query)
         XMLDB::Base::ResourceSet.getInstance(@obj._invoke('query', 'Ljava.lang.String;', query))
       end  
       

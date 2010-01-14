@@ -12,19 +12,19 @@ module ActiveRecordReloaded
       
       # Insert a row into database using hash map
       # Returns new inserted ID
-      def insert(options)
+      def insert(table, options)
         raise 'Method insert must be overridden'
       end
       
       # Updates row in database using hash map
       # Returns number of affected rows
-      def update(options)
+      def update(table, options)
         raise 'Method update must be overridden'
       end
       
       # Deletes row in database using specific options
       # Returns number of deleted rows
-      def delete(options)
+      def delete(table, options)
         raise 'Method delete must be overridden'
       end
       
