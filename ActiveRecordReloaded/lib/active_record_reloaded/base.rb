@@ -41,14 +41,13 @@ module ActiveRecordReloaded
       # Returns a table primary key index used for attributes
       # TODO: dodelat ziskani primarniho klice
       def self.primary_key
-        #self.class.name + :Id
-        :_ID_
+        "_ID_"
       end
     
       # Deletes object in database according to its ID
       def self.delete(id)
         options = { :id => id }
-        @@dbcontroller.delete(options)
+        @@dbcontroller.delete(table_name, options)
       end
     
     
@@ -87,13 +86,15 @@ module ActiveRecordReloaded
       
       # Destroys object in database
       def destroy
-        if (!@new_record)
+        if (@new_record)
             raise 'Cannot delete object from database because it has not been inserted'
         end
         
         id = get_attribute(primary_key)
-        delete(id)
-        set_attribute(id, default_primary_key_value)
+        #delete(id)
+        options = { :id => id }
+        @@dbcontroller.delete(table_name, options)
+        set_attribute(primary_key, default_primary_key_value)
         @new_record = true
       end
     
@@ -174,8 +175,9 @@ module ActiveRecordReloaded
       
       # Returns default value of primary key
       def default_primary_key_value
-        attrs = @@dbcontroller.attributes(table_name)
-        return attrs[primary_key]
+        #attrs = @@dbcontroller.attributes(table_name)
+        #return attrs[primary_key]
+        return 0
       end
       
       # Resets primary key value to default
@@ -246,7 +248,7 @@ module ActiveRecordReloaded
       # Inserts new object into database
       def insert
         uid = @@dbcontroller.insert(table_name, convert_to_map)
-        #set_attribute(primary_key, uid)
+        set_attribute(primary_key, uid)
         @new_record = false
         return uid
       end
